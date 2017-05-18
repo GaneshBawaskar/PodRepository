@@ -14,6 +14,7 @@
 		74331C371ECD8CAC00290B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74331C351ECD8CAC00290B60 /* LaunchScreen.storyboard */; };
 		74331C421ECD8CAD00290B60 /* MultiButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74331C411ECD8CAD00290B60 /* MultiButtonTests.swift */; };
 		74331C4D1ECD8CAD00290B60 /* MultiButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74331C4C1ECD8CAD00290B60 /* MultiButtonUITests.swift */; };
+		74331C951ECDA8C300290B60 /* PodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74331C941ECDA8C300290B60 /* PodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		74331C481ECD8CAD00290B60 /* MultiButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74331C4C1ECD8CAD00290B60 /* MultiButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiButtonUITests.swift; sourceTree = "<group>"; };
 		74331C4E1ECD8CAD00290B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74331C941ECDA8C300290B60 /* PodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				74331C331ECD8CAC00290B60 /* Assets.xcassets */,
 				74331C351ECD8CAC00290B60 /* LaunchScreen.storyboard */,
 				74331C381ECD8CAC00290B60 /* Info.plist */,
+				74331C941ECDA8C300290B60 /* PodView.swift */,
 			);
 			path = MultiButton;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74331C951ECDA8C300290B60 /* PodView.swift in Sources */,
 				74331C2F1ECD8CAC00290B60 /* ViewController.swift in Sources */,
 				74331C2D1ECD8CAC00290B60 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				74331C531ECD8CAD00290B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74331C541ECD8CAD00290B60 /* Build configuration list for PBXNativeTarget "MultiButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				74331C561ECD8CAD00290B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74331C571ECD8CAD00290B60 /* Build configuration list for PBXNativeTarget "MultiButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				74331C591ECD8CAD00290B60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
