@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("MyFirst Commit");
+        print("My First Commit 1");
+        print("My First Commit 2");
         // Do any additional setup after loading the view, typically from a nib.
     }
 
